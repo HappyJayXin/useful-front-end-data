@@ -47,7 +47,9 @@ new Vue({
     },
     reverseArray: (...arr) => arr.forEach(arr => arr.reverse()),
     getFilter({ lists }) {
-      return lists.filter(({ name }) => name.indexOf(this.sreachText) != -1);
+      return lists.filter(({ name }) => {
+        return name.toLowerCase().indexOf(this.sreachText.toLowerCase()) != -1
+      });
     },
     handleSearch() {
       if (this.sreachText === '' || this.filteredSearch.length < 1) {
