@@ -38,7 +38,6 @@ const javascript = {
       name: 'axios mock adapter',
       href: 'https://github.com/ctimmerm/axios-mock-adapter'
     },
-    { name: '複製貼上', href: 'https://clipboardjs.com/' },
     { name: 'Pageable 單頁捲動', href: 'https://github.com/Mobius1/Pageable' },
     { name: 'svgo 壓縮svg', href: 'https://github.com/svg/svgo' },
     { name: 'Splitting JS', href: 'https://splitting.js.org/' },
@@ -63,7 +62,6 @@ const javascript = {
     },
     { name: 'flatpickr 日期選擇器', href: 'https://flatpickr.js.org/' },
     { name: 'scroll-out動畫', href: 'https://scroll-out.github.io/' },
-    { name: 'Lodash', href: 'https://lodash.com/' },
     {
       name: 'scrollreveal',
       href: 'https://github.com/scrollreveal/scrollreveal'

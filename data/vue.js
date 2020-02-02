@@ -63,10 +63,6 @@ const vue = {
       href: 'https://surmon-china.github.io/vue-awesome-swiper/'
     },
     {
-      name: 'vue-i18n',
-      href: 'https://kazupon.github.io/vue-i18n/zh/'
-    },
-    {
       name: 'vuex-persist',
       href: 'https://www.npmjs.com/package/vuex-persist'
     },
