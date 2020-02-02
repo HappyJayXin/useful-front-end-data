@@ -46,7 +46,7 @@
       <!-- start search -->
       <b-form-input
         class="mb-2"
-        v-model.trim="sreachText"
+        v-model.trim="searchText"
         placeholder="快速搜尋 Enter"
         @keyup.enter="handleSearch"
         list="search-res"
@@ -66,14 +66,14 @@
           v-model="tabIndex"
         >
           <b-tab
-            v-for="content in contents"
-            :key="content.id"
-            :title="content.name"
+            v-for="source in sourceData"
+            :key="source.id"
+            :title="source.name"
           >
             <b-button
               class="btn-lg m-1"
               variant="info"
-              v-for="(list, index) in content.lists"
+              v-for="(list, index) in source.lists"
               :key="index"
               :href="list.href"
               target="_blank"

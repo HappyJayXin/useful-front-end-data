@@ -2,57 +2,40 @@ new Vue({
   el: '#app',
   data() {
     return {
+      sourceData: [javascript, react, vue, css, image, other, article],
       tabIndex: 0,
-      sreachText: ''
+      searchText: ''
     }
   },
   computed: {
-    contents() {
-      return [javascript, react, vue, css, image, other, article]
-    },
     filteredSearch() {
-      return [
-        ...this.getFilter(javascript),
-        ...this.getFilter(react),
-        ...this.getFilter(vue),
-        ...this.getFilter(css),
-        ...this.getFilter(image),
-        ...this.getFilter(other),
-        ...this.getFilter(article)
-      ]
+      return this.sourceData.map(data => this.getFilter(data));
     }
   },
   watch: {
     tabIndex(value) {
-      localStorage.setItem('tabIndex', value)
+      localStorage.setItem('tabIndex', value);
     }
   },
-  beforeMount() {
-    this.reverseArray(
-      javascript.lists,
-      react.lists,
-      vue.lists,
-      css.lists,
-      image.lists,
-      other.lists,
-      article.lists
-    )
-  },
   mounted() {
-    this.init()
+    // Sort the data from new to old.
+    this.reverseArray(this.sourceData);
+
+    // Get last viewed index.
+    this.init();
   },
   methods: {
     init() {
-      this.tabIndex = Number(localStorage.getItem('tabIndex')) || 0
+      this.tabIndex = Number(localStorage.getItem('tabIndex')) || 0;;
     },
-    reverseArray: (...arr) => arr.forEach(arr => arr.reverse()),
+    reverseArray: arr => arr.forEach(({lists}) => lists.reverse()),
     getFilter({ lists }) {
       return lists.filter(({ name }) => {
-        return name.toLowerCase().indexOf(this.sreachText.toLowerCase()) != -1
+        return name.toLowerCase().indexOf(this.searchText.toLowerCase()) != -1;;
       });
     },
     handleSearch() {
-      if (this.sreachText === '' || this.filteredSearch.length < 1) {
+      if (this.searchText === '' || this.filteredSearch.length < 1) {
         this.makeToast('danger', '搜尋失敗。');
         return;
       }
@@ -68,4 +51,4 @@ new Vue({
       })
     }
   }
-})
+});
