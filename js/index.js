@@ -9,7 +9,7 @@ new Vue({
   },
   computed: {
     filteredSearch() {
-      return this.sourceData.map(data => this.getFilter(data));
+      return this.sourceData.map(data => this.getFilter(data)).flat();
     }
   },
   watch: {
