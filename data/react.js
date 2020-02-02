@@ -17,6 +17,10 @@ const react = {
     {
       name: 'styled-components',
       href: 'https://styled-components.com/'
+    },
+    {
+      name: 'Bit',
+      href: 'https://bitsrc.io/'
     }
   ]
 }
