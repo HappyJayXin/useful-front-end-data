@@ -57,7 +57,6 @@ const javascript = {
       name: 'AOS Animate on scroll',
       href: 'https://michalsnik.github.io/aos/'
     },
-    { name: 'Bit', href: 'https://bitsrc.io/' },
     {
       name: 'Jquery cookie',
       href: 'https://github.com/carhartl/jquery-cookie'
