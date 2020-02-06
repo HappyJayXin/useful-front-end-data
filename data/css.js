@@ -3,6 +3,10 @@ const css = {
   name: 'CSS',
   lists: [
     {
+      name: 'Bulma',
+      href: 'https://bulma.io/'
+    },
+    {
       name: 'tailwindcss-animations',
       href: 'https://github.com/benface/tailwindcss-animations'
     },
