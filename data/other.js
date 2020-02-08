@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'json-server',
+      href: 'https://github.com/typicode/json-server'
+    },
+    {
       name: 'typescript-eslint',
       href: 'https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser'
     },
