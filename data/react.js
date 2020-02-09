@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-transition-group',
+      href: 'https://reactcommunity.org/react-transition-group/'
+    },
+    {
       name: 'styled-components',
       href: 'https://github.com/styled-components/styled-components'
     },
