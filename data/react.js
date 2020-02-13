@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'styled-normalize',
+      href: 'https://github.com/sergeysova/styled-normalize'
+    },
+    {
       name: 'styled-bootstrap-grid#readme',
       href: 'https://github.com/dragma/styled-bootstrap-grid#readme'
     },
