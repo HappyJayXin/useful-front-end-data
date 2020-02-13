@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-async',
+      href: 'https://github.com/async-library/react-async'
+    },
+    {
       name: 'react-transition-group',
       href: 'https://reactcommunity.org/react-transition-group/'
     },
