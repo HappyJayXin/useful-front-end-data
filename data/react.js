@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'styled-bootstrap-grid#readme',
+      href: 'https://github.com/dragma/styled-bootstrap-grid#readme'
+    },
+    {
       name: 'react-async',
       href: 'https://github.com/async-library/react-async'
     },
