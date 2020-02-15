@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'apollo-client',
+      href: 'https://github.com/apollographql/apollo-client'
+    },
+    {
       name: 'rollupjs',
       href: 'https://www.rollupjs.com/'
     },
