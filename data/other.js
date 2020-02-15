@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: '正規化整理－範例',
+      href: 'https://ihateregex.io/'
+    },
+    {
       name: 'json-server',
       href: 'https://github.com/typicode/json-server'
     },
