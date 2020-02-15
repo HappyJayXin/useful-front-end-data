@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-apollo',
+      href: 'https://github.com/apollographql/react-apollo'
+    },
+    {
       name: 'styled-normalize',
       href: 'https://github.com/sergeysova/styled-normalize'
     },
