@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'reactjsexample',
+      href: 'https://reactjsexample.com/'
+    },
+    {
       name: 'react-apollo',
       href: 'https://github.com/apollographql/react-apollo'
     },
