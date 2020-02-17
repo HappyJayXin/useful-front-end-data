@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'immerjs',
+      href: 'https://immerjs.github.io/immer/docs/introduction'
+    },
+    {
       name: 'apollo-client',
       href: 'https://github.com/apollographql/apollo-client'
     },
