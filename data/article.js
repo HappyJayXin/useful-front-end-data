@@ -3,6 +3,10 @@ const article = {
   name: '文章',
   lists: [
     {
+      name: 'MAC ITERM2',
+      herf: 'https://dustinhsiao21.com/2019/04/09/'
+    },
+    {
       name: 'VS Code 23個常用快捷鍵速查表',
       href: 'https://hackmd.io/@sean666/HJ3x8K6Z8'
     },
