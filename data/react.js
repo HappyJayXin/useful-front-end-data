@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-i18next',
+      href: 'https://github.com/i18next/react-i18next'
+    },
+    {
       name: 'reactjsexample',
       href: 'https://reactjsexample.com/'
     },
