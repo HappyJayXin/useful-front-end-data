@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'swr',
+      href: 'https://www.npmjs.com/package/swr'
+    },
+    {
       name: 'react-i18next',
       href: 'https://github.com/i18next/react-i18next'
     },
