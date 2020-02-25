@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'sticky-js',
+      href: 'https://github.com/rgalus/sticky-js'
+    },
+    {
       name: 'immerjs',
       href: 'https://immerjs.github.io/immer/docs/introduction'
     },
