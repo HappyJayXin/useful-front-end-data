@@ -3,6 +3,10 @@ const css = {
   name: 'CSS',
   lists: [
     {
+      name: 'fixed-sticky',
+      href: 'https://github.com/filamentgroup/fixed-sticky'
+    },
+    {
       name: 'Bulma',
       href: 'https://bulma.io/'
     },
