@@ -11,6 +11,10 @@ const react = {
       href: 'https://www.npmjs.com/package/swr'
     },
     {
+      name: 'next-i18next',
+      href: 'https://github.com/isaachinman/next-i18next'
+    },
+    {
       name: 'react-i18next',
       href: 'https://github.com/i18next/react-i18next'
     },
