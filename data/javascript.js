@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'xstate',
+      href: 'https://github.com/davidkpiano/xstate'
+    },
+    {
       name: 'sticky-js',
       href: 'https://github.com/rgalus/sticky-js'
     },
