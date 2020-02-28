@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'cheatsheets',
+      href: 'https://devhints.io/'
+    },
+    {
       name: '正規化整理－範例',
       href: 'https://ihateregex.io/'
     },
