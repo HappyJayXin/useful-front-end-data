@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'svgomg',
+      href: 'https://jakearchibald.github.io/svgomg/'
+    },
+    {
       name: 'cheatsheets',
       href: 'https://devhints.io/'
     },
