@@ -3,6 +3,14 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'cheerio',
+      href: 'https://www.npmjs.com/package/cheerio'
+    },
+    {
+      name: 'request',
+      href: 'https://www.npmjs.com/package/request'
+    },
+    {
       name: 'xstate',
       href: 'https://github.com/davidkpiano/xstate'
     },
