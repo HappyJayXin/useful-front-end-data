@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'dotenv',
+      href: 'https://www.npmjs.com/package/dotenv'
+    },
+    {
       name: 'cheerio',
       href: 'https://www.npmjs.com/package/cheerio'
     },
