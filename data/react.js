@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'emotion',
+      href: 'https://github.com/emotion-js/emotion'
+    },
+    {
       name: 'react-responsive',
       href: 'https://github.com/contra/react-responsive'
     },
