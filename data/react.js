@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-responsive',
+      href: 'https://github.com/contra/react-responsive'
+    },
+    {
       name: 'enzymejs',
       htef: 'https://github.com/enzymejs/enzyme'
     },
