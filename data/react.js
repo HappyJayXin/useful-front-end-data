@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-testing-library',
+      href: 'https://github.com/testing-library/react-testing-library'
+    },
+    {
       name: 'emotion',
       href: 'https://github.com/emotion-js/emotion'
     },
