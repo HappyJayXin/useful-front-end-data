@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'testing-library/jest-dom',
+      href: 'https://github.com/testing-library/jest-dom'
+    },
+    {
       name: 'react-testing-library',
       href: 'https://github.com/testing-library/react-testing-library'
     },
