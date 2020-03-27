@@ -3,6 +3,14 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: '@styled-system/theme-get',
+      href: 'https://github.com/styled-system/styled-system/tree/master/packages/theme-get'
+    },
+    {
+      name: '@styled-system/prop-types',
+      href: 'https://github.com/styled-system/styled-system/tree/master/packages/prop-types'
+    },
+    {
       name: 'testing-library/jest-dom',
       href: 'https://github.com/testing-library/jest-dom'
     },
