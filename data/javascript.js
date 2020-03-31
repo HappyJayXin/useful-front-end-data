@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'eslint-plugin-jest',
+      href: 'https://www.npmjs.com/package/eslint-plugin-jest'
+    },
+    {
       name: 'dotenv',
       href: 'https://www.npmjs.com/package/dotenv'
     },
