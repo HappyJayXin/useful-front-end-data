@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'fetch-mock',
+      href: 'https://github.com/wheresrhys/fetch-mock'
+    },
+    {
       name: 'isomorphic-fetch',
       href: 'https://github.com/matthew-andrews/isomorphic-fetch'
     },
