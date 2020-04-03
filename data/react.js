@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'BizCharts',
+      href: 'https://github.com/alibaba/BizCharts'
+    },
+    {
       name: '@styled-system/prop-types',
       href: 'https://www.npmjs.com/package/@styled-system/prop-types'
     },
