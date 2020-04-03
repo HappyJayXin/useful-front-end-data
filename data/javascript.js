@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'isomorphic-fetch',
+      href: 'https://github.com/matthew-andrews/isomorphic-fetch'
+    },
+    {
       name: 'eslint-plugin-jest',
       href: 'https://www.npmjs.com/package/eslint-plugin-jest'
     },
