@@ -7,10 +7,6 @@ const react = {
       href: 'https://github.com/alibaba/BizCharts'
     },
     {
-      name: '@styled-system/prop-types',
-      href: 'https://www.npmjs.com/package/@styled-system/prop-types'
-    },
-    {
       name: 'React.js Example',
       href: 'https://reactjsexample.com/'
     },
