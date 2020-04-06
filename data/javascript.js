@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'dayjs',
+      href: 'https://github.com/iamkun/dayjs'
+    },
+    {
       name: 'fetch-mock',
       href: 'https://github.com/wheresrhys/fetch-mock'
     },
