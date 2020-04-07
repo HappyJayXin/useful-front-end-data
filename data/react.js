@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-use-hook',
+      href: 'https://github.com/streamich/react-use/tree/master/src'
+    },
+    {
       name: 'BizCharts',
       href: 'https://github.com/alibaba/BizCharts'
     },
