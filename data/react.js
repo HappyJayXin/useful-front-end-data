@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-if',
+      href: 'https://github.com/romac/react-if'
+    },
+    {
       name: 'react-use-hook',
       href: 'https://github.com/streamich/react-use/tree/master/src'
     },
