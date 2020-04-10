@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-waypoint',
+      href: 'https://github.com/civiccc/react-waypoint'
+    },
+    {
       name: 'react-if',
       href: 'https://github.com/romac/react-if'
     },
