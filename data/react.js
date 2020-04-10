@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-flexbox-grid',
+      href: 'https://github.com/roylee0704/react-flexbox-grid'
+    },
+    {
       name: 'react-waypoint',
       href: 'https://github.com/civiccc/react-waypoint'
     },
