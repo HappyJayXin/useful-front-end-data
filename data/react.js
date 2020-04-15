@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'redux-mock-store',
+      href: 'https://github.com/reduxjs/redux-mock-store'
+    },
+    {
       name: 'react-flexbox-grid',
       href: 'https://github.com/roylee0704/react-flexbox-grid'
     },
