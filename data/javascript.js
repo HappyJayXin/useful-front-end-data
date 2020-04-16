@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'yup',
+      href: 'https://github.com/jquense/yup'
+    },
+    {
       name: 'dayjs',
       href: 'https://github.com/iamkun/dayjs'
     },
