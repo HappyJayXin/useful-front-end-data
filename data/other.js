@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'chrome extensions api',
+      href: 'https://developer.chrome.com/extensions/api_index'
+    },
+    {
       name: 'zeit',
       href: 'https://zeit.co/dashboard'
     },
