@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-hooks-testing-library',
+      herf: 'https://github.com/testing-library/react-hooks-testing-library'
+    },
+    {
       name: 'redux-mock-store',
       href: 'https://github.com/reduxjs/redux-mock-store'
     },
