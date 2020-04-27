@@ -3,6 +3,14 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-final-form',
+      href: 'https://final-form.org/docs/react-final-form/getting-started'
+    },
+    {
+      name: 'react-hook-form',
+      href: 'https://react-hook-form.com/get-started'
+    },
+    {
       name: 'react-scrollspy',
       href: 'https://github.com/makotot/react-scrollspy'
     },
