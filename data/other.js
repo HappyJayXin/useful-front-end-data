@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'keycode info',
+      href: 'https://keycode.info/'
+    },
+    {
       name: 'react-chrome-extension-cli',
       href: 'https://github.com/dujuncheng/react-chrome-extension-cli'
     },
