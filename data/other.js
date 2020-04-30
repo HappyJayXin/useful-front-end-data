@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'secure-env',
+      href: 'https://github.com/kunalpanchal/secure-env'
+    },
+    {
       name: 'terser',
       href: 'https://github.com/terser/terser'
     },
