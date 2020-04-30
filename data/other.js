@@ -3,6 +3,14 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'terser',
+      href: 'https://github.com/terser/terser'
+    },
+    {
+      name: 'babel-minify',
+      href: 'https://github.com/babel/minify'
+    },
+    {
       name: 'keycode info',
       href: 'https://keycode.info/'
     },
