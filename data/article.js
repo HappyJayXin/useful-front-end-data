@@ -3,6 +3,10 @@ const article = {
   name: '文章',
   lists: [
     {
+      name: 'Webpack Alias',
+      href: 'https://medium.com/itsoktomakemistakes/webpack-alias-%E8%AE%93%E9%96%8B%E7%99%BC%E6%9B%B4%E6%96%B9%E4%BE%BF-ff84dca0cb47'
+    },
+    {
       name: 'MAC ITERM2',
       herf: 'https://dustinhsiao21.com/2019/04/09/'
     },
