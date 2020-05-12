@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-id-swiper',
+      href: 'https://react-id-swiper.ashernguyen.site/doc/get-started'
+    },
+    {
       name: 'material-ui',
       href: 'https://material-ui.com/zh/'
     },
