@@ -7,6 +7,10 @@ const react = {
       href: 'https://github.com/fisshy/react-scroll'
     },
     {
+      name: 'react-scroll',
+      href: 'https://github.com/fisshy/react-scroll'
+    },
+    {
       name: 'react-id-swiper',
       href: 'https://react-id-swiper.ashernguyen.site/doc/get-started'
     },
