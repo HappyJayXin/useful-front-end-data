@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'color name htmlcsscolor',
+      href: 'https://www.htmlcsscolor.com/',
+    },
+    {
       name: 'secure-env',
       href: 'https://github.com/kunalpanchal/secure-env'
     },
