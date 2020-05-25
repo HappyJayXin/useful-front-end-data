@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'jest-styled-components',
+      href: 'https://github.com/styled-components/jest-styled-components',
+    },
+    {
       name: 'react-scroll',
       href: 'https://github.com/fisshy/react-scroll'
     },
