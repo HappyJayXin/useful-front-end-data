@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'passport',
+      href: 'https://github.com/jaredhanson/passport',
+    },
+    {
       name: 'yup',
       href: 'https://github.com/jquense/yup'
     },
