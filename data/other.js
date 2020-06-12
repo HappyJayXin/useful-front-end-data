@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'doctoc',
+      href: 'https://github.com/thlorenz/doctoc',
+    },
+    {
       name: 'color name htmlcsscolor',
       href: 'https://www.htmlcsscolor.com/',
     },
