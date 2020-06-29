@@ -3,6 +3,10 @@ const article = {
   name: '文章',
   lists: [
     {
+      name: '提問的智慧',
+      href: 'https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way',
+    },
+    {
       name: 'branch 同步 master',
       href: 'https://www.itread01.com/content/1547544259.html'
     },
