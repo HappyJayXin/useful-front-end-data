@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'redux-toolkit',
+      href: 'https://github.com/reduxjs/redux-toolkit',
+    },
+    {
       name: 'jest-styled-components',
       href: 'https://github.com/styled-components/jest-styled-components',
     },
