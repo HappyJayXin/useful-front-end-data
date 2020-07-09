@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'lmgtfy google',
+      href: 'https://zh.lmgtfy.com/',
+    },
+    {
       name: 'doctoc',
       href: 'https://github.com/thlorenz/doctoc',
     },
