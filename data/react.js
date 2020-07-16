@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'industrial ui',
+      href: 'https://github.com/Actyx/industrial-ui',
+    },
+    {
       name: 'redux-toolkit-saga',
       href: 'https://github.com/anymore1405/redux-toolkit-saga',
     },
