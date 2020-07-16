@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'use-http',
+      href: 'https://github.com/ava/use-http',
+    },
+    {
       name: 'industrial ui',
       href: 'https://github.com/Actyx/industrial-ui',
     },
