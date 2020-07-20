@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'super expressive',
+      href: 'https://github.com/francisrstokes/super-expressive',
+    },
+    {
       name: 'storybook',
       href: 'https://storybook.js.org/'
     },
