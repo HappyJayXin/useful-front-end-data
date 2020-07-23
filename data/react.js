@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'Framer Motion',
+      href: 'https://github.com/framer/motion',
+    },
+    {
       name: 'use-http',
       href: 'https://github.com/ava/use-http',
     },
