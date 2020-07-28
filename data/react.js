@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'chakra ui',
+      href: 'https://chakra-ui.com/',
+    },
+    {
       name: 'Framer Motion',
       href: 'https://github.com/framer/motion',
     },
