@@ -9,7 +9,10 @@ new Vue({
   },
   computed: {
     filteredSearch() {
-      return this.sourceData.map(data => this.getFilter(data)).flat();
+      return this.getFilter(this.sourceData[this.tabIndex]) 
+    },
+    placeholderText() {
+      return `快速搜尋${this.sourceData[this.tabIndex].name}內容`;
     }
   },
   watch: {

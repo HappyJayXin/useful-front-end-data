@@ -47,7 +47,7 @@
       <b-form-input
         class="mb-2"
         v-model.trim="searchText"
-        placeholder="快速搜尋 Enter"
+        :placeholder="placeholderText"
         @keyup.enter="handleSearch"
         list="search-res"
       ></b-form-input>
