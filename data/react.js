@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-swipeable-views',
+      href: 'https://github.com/oliviertassinari/react-swipeable-views',
+    },
+    {
       name: 'chakra ui',
       href: 'https://chakra-ui.com/',
     },
