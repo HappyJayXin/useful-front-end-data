@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'ink',
+      href: 'https://github.com/vadimdemedes/ink',
+    },
+    {
       name: 'react-swipeable-views',
       href: 'https://github.com/oliviertassinari/react-swipeable-views',
     },
