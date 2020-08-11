@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'npm io',
+      href: 'https://npm.io/',
+    },
+    {
       name: 'lmgtfy google',
       href: 'https://zh.lmgtfy.com/',
     },
