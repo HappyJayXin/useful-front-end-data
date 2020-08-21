@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-three-fiber',
+      href: 'https://github.com/react-spring/react-three-fiber',
+    },
+    {
       name: 'ink',
       href: 'https://github.com/vadimdemedes/ink',
     },
