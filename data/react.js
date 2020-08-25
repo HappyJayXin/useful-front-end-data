@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'redux-logger',
+      href: 'https://github.com/LogRocket/redux-logger',
+    },
+    {
       name: 'react-three-fiber',
       href: 'https://github.com/react-spring/react-three-fiber',
     },
