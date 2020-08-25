@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'rebass',
+      href: 'https://rebassjs.org/',
+    },
+    {
       name: 'redux-logger',
       href: 'https://github.com/LogRocket/redux-logger',
     },
