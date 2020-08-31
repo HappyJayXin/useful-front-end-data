@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'create-react-library',
+      href: 'https://github.com/transitive-bullshit/create-react-library',
+    },
+    {
       name: 'rebass',
       href: 'https://rebassjs.org/',
     },
