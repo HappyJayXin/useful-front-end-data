@@ -3,6 +3,10 @@ const article = {
   name: '文章',
   lists: [
     {
+      name: 'vue3 News',
+      href: 'https://github.com/vue3/vue3-News',
+    },
+    {
       name: '提問的智慧',
       href: 'https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way',
     },
