@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'motion',
+      href: 'https://github.com/framer/motion',
+    },
+    {
       name: 'create-react-library',
       href: 'https://github.com/transitive-bullshit/create-react-library',
     },
