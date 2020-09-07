@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'mobile-detect',
+      href: 'https://github.com/hgoebl/mobile-detect.js'
+    },
+    {
       name: 'super expressive',
       href: 'https://github.com/francisrstokes/super-expressive',
     },
