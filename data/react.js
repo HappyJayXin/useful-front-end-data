@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'svgr',
+      href: 'https://github.com/gregberge/svgr',
+    },
+    {
       name: 'rooks hooks',
       href: 'https://github.com/imbhargav5/rooks',
     },
