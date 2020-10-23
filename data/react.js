@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-sortable-hoc',
+      href: 'https://github.com/clauderic/react-sortable-hoc',
+    },
+    {
       name: 'svgr',
       href: 'https://github.com/gregberge/svgr',
     },
