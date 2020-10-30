@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'puppeteer',
+      href: 'https://www.npmjs.com/package/puppeteer',
+    },
+    {
       name: 'mobile-detect',
       href: 'https://github.com/hgoebl/mobile-detect.js'
     },
