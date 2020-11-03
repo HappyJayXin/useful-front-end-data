@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'puppeteer-core',
+      href: 'https://www.npmjs.com/package/puppeteer-core',
+    },
+    {
       name: 'puppeteer',
       href: 'https://www.npmjs.com/package/puppeteer',
     },
