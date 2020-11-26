@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'cz cli',
+      href: 'https://github.com/commitizen/cz-cli',
+    },
+    {
       name: 'color name robertcooper',
       href: 'https://colornamer.robertcooper.me/',
     },
