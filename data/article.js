@@ -3,6 +3,10 @@ const article = {
   name: '文章',
   lists: [
     {
+      name: 'Five common mistakes writing react components',
+      href: 'https://www.lorenzweiss.de/common_mistakes_react_hooks/',
+    },
+    {
       name: 'React Libraries in 2020',
       href: 'https://www.robinwieruch.de/react-libraries#writing-documentation-with-react',
     },
