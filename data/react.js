@@ -4,7 +4,7 @@ const react = {
   lists: [
     {
       name: 'rc-drawer',
-      href: 'https://github.com/react-component/drawer'.
+      href: 'https://github.com/react-component/drawer',
     },
     {
       name: 'react-sortable-hoc',
