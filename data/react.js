@@ -237,6 +237,10 @@ const react = {
     {
       name: 'Bit',
       href: 'https://bitsrc.io/'
+    },
+    {
+      name: '10 Next.js Tips You Might Not Know!',
+      href: 'https://www.youtube.com/watch?v=R59e1Vl5lO8'
     }
   ]
 }
