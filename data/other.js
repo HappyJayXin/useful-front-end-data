@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'semantic-ui',
+      href: 'https://semantic-ui.com/',
+    },
+    {
       name: 'cz cli',
       href: 'https://github.com/commitizen/cz-cli',
     },
