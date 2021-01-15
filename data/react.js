@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'ui-box',
+      href: 'https://github.com/segmentio/ui-box',
+    },
+    {
       name: 'rc-drawer',
       href: 'https://github.com/react-component/drawer',
     },
