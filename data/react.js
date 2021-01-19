@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'use-media',
+      href: 'https://github.com/streamich/use-media',
+    },
+    {
       name: 'ui-box',
       href: 'https://github.com/segmentio/ui-box',
     },
