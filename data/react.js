@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'polished',
+      href: 'https://polished.js.org/'
+    },
+    {
       name: 'use-media',
       href: 'https://github.com/streamich/use-media',
     },
