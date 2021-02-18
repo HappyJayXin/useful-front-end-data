@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'useMediaQuery',
+      href: 'https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/',
+    },
+    {
       name: 'polished',
       href: 'https://polished.js.org/'
     },
