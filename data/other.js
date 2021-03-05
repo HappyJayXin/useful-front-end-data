@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'awesome-react',
+      href: 'https://github.com/enaqx/awesome-react',
+    },
+    {
       name: 'semantic-ui',
       href: 'https://semantic-ui.com/',
     },
