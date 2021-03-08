@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'styled-breakpoints',
+      href: 'https://github.com/mg901/styled-breakpoints#readme',
+    },
+    {
       name: 'useMediaQuery',
       href: 'https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/',
     },
