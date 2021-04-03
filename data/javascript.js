@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'TypeScript React Cheat Sheet',
+      href: 'https://www.saltycrane.com/cheat-sheets/typescript/react/latest/'
+    },
+    {
       name: 'puppeteer-core',
       href: 'https://www.npmjs.com/package/puppeteer-core',
     },
