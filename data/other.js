@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'Mermaid Live Editor',
+      href: 'https://mermaid-js.github.io/mermaid-live-editor',
+    },
+    {
       name: 'awesome-react',
       href: 'https://github.com/enaqx/awesome-react',
     },
