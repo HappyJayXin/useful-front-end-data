@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'rxjs-hooks',
+      href: 'https://github.com/LeetCode-OpenSource/rxjs-hooks'
+    },
+    {
       name: 'styled-breakpoints',
       href: 'https://github.com/mg901/styled-breakpoints#readme',
     },
