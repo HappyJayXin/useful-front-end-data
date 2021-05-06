@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'theme ui',
+      href: 'https://github.com/system-ui/theme-ui'
+    },
+    {
       name: 'rxjs-hooks',
       href: 'https://github.com/LeetCode-OpenSource/rxjs-hooks'
     },
