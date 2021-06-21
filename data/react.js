@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'use sound',
+      href: 'https://github.com/joshwcomeau/use-sound',
+    },
+    {
       name: 'theme ui',
       href: 'https://github.com/system-ui/theme-ui'
     },
