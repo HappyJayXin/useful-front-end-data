@@ -200,6 +200,10 @@ const javascript = {
     {
       name: 'anime.js',
       href: 'http://animejs.com/documentation/#domAttributes'
+    },
+    {
+      name: 'msw',
+      href: 'https://www.npmjs.com/package/msw'
     }
   ]
 }
