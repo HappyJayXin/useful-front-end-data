@@ -3,6 +3,14 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: '終端機文字樣式',
+      href: 'https://www.npmjs.com/package/chalk',
+    },
+    {
+      name: '顯示終端機文字',
+      href: 'https://www.npmjs.com/package/figlet',
+    },
+    {
       name: 'TypeScript React Cheat Sheet',
       href: 'https://www.saltycrane.com/cheat-sheets/typescript/react/latest/'
     },
