@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'flowchart mermaid js',
+      href: 'https://mermaid-js.github.io/mermaid/#/'
+    },
+    {
       name: '線上 vscode theme',
       href: 'https://www.vscolors.com/',
     },
