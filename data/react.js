@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-component package',
+      href: 'https://github.com/orgs/react-component/repositories'
+    },
+    {
       name: 'grommet',
       href: 'https://github.com/grommet/grommet',
     },
