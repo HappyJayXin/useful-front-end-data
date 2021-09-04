@@ -3,6 +3,10 @@ const css = {
   name: 'CSS',
   lists: [
     {
+      name: 'css layout',
+      href: 'https://csslayout.io/patterns'
+    },
+    {
       name: 'fixed-sticky',
       href: 'https://github.com/filamentgroup/fixed-sticky'
     },
