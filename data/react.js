@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react hot toast',
+      href: 'https://github.com/timolins/react-hot-toast'
+    },
+    {
       name: 'react-component package',
       href: 'https://github.com/orgs/react-component/repositories'
     },
