@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react joyride 網站教學步驟',
+      href: 'https://github.com/gilbarbara/react-joyride'
+    },
+    {
       name: 'react hot toast',
       href: 'https://github.com/timolins/react-hot-toast'
     },
