@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'ts audio',
+      href: 'https://github.com/EvandroLG/ts-audio'
+    },
+    {
       name: '終端機文字樣式',
       href: 'https://www.npmjs.com/package/chalk',
     },
