@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'JSX Control Statements',
+      href: 'https://www.npmjs.com/package/babel-plugin-jsx-control-statements#choose-tag'
+    },
+    {
       name: 'react joyride 網站教學步驟',
       href: 'https://github.com/gilbarbara/react-joyride'
     },
