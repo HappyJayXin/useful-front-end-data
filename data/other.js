@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'skypack',
+      href: 'https://www.skypack.dev/',
+    },
+    {
       name: 'flowchart mermaid js',
       href: 'https://mermaid-js.github.io/mermaid/#/'
     },
