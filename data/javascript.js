@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'tiny-invariant',
+      href: 'https://www.npmjs.com/package/4',
+    },
+    {
       name: 'ts audio',
       href: 'https://github.com/EvandroLG/ts-audio'
     },
