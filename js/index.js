@@ -2,7 +2,7 @@ new Vue({
   el: '#app',
   data() {
     return {
-      sourceData: [javascript, react, vue, css, image, other, article],
+      sourceData: [javascript, typescript, react, vue, css, image, other, article],
       tabIndex: 0,
       searchText: ''
     }
@@ -52,6 +52,13 @@ new Vue({
         variant: variant,
         solid: true
       })
+    },
+    linkClass(idx) {
+      if (this.tabIndex === idx) {
+        return ['text-light']
+      } else {
+        return ['text-dark']
+      }
     }
   }
 });

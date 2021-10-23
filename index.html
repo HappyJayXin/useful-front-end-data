@@ -1,102 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Required Stylesheets -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <!-- Required Stylesheets -->
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"
-  />
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"
-  />
+    <!-- Load polyfills to support older browsers -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"></script>
 
-  <!-- Load polyfills to support older browsers -->
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"></script>
+    <!-- Required scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
 
-  <!-- Required scripts -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js'></script>
-  <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <title>前端資源</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 
-  <title>前端資源</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+      body {
+        font-family: 'Noto Sans TC', sans-serif;
+      }
 
-    body {
-      font-family: 'Noto Sans TC', sans-serif;
-    }
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+  </head>
 
-    [v-cloak] {
-      display: none;
-    }
-  </style>
-</head>
+  <body>
+    <div class="container" id="app" v-cloak>
+      <main class="mb-3 mt-5 p-2">
+        <!-- start search -->
+        <b-form-input
+          class="mb-2"
+          v-model.trim="searchText"
+          :placeholder="placeholderText"
+          @keyup.enter="handleSearch"
+          list="search-res"
+        ></b-form-input>
+        <datalist id="search-res">
+          <option v-for="res in filteredSearch">{{ res.name }}</option>
+        </datalist>
+        <!-- end search -->
 
-<body>
-  <div
-    class="container"
-    id="app"
-    v-cloak
-  >
-    <main class="mb-3 mt-5 p-2">
-      <!-- start search -->
-      <b-form-input
-        class="mb-2"
-        v-model.trim="searchText"
-        :placeholder="placeholderText"
-        @keyup.enter="handleSearch"
-        list="search-res"
-      ></b-form-input>
-      <datalist id="search-res">
-        <option v-for="res in filteredSearch">{{ res.name }}</option>
-      </datalist>
-      <!-- end search -->
+        <!-- star Tab -->
+        <b-card no-body>
+          <b-tabs pills card vertical active-nav-item-class="text-light bg-dark" v-model="tabIndex">
+            <b-tab
+              v-for="(source, index) in sourceData"
+              :key="source.id"
+              :title="source.name"
+              :title-link-class="linkClass(index)"
+            >
+              <b-button
+                variant="dark"
+                class="m-1"
+                size="lg"
+                v-for="(list, index) in source.lists"
+                :key="index"
+                :href="list.href"
+                target="_blank"
+                >{{ list.name }}</b-button
+              >
+            </b-tab>
+          </b-tabs>
+        </b-card>
+        <!-- end Tab -->
+      </main>
+    </div>
 
-      <!-- star Tab -->
-      <b-card no-body>
-        <b-tabs
-          pills
-          card
-          vertical
-          active-nav-item-class="text-light bg-info"
-          v-model="tabIndex"
-        >
-          <b-tab
-            v-for="source in sourceData"
-            :key="source.id"
-            :title="source.name"
-          >
-            <b-button
-              class="btn-lg m-1"
-              variant="info"
-              v-for="(list, index) in source.lists"
-              :key="index"
-              :href="list.href"
-              target="_blank"
-            >{{ list.name }}</b-button>
-          </b-tab>
-        </b-tabs>
-      </b-card>
-      <!-- end Tab -->
-    </main>
-  </div>
+    <!-- data -->
+    <script src="./data/javascript.js"></script>
+    <script src="./data/css.js"></script>
+    <script src="./data/image.js"></script>
+    <script src="./data/other.js"></script>
+    <script src="./data/article.js"></script>
+    <script src="./data/vue.js"></script>
+    <script src="./data/react.js"></script>
+    <script src="./data/typescript.js"></script>
 
-  <!-- data -->
-  <script src="./data/javascript.js"></script>
-  <script src="./data/css.js"></script>
-  <script src="./data/image.js"></script>
-  <script src="./data/other.js"></script>
-  <script src="./data/article.js"></script>
-  <script src="./data/vue.js"></script>
-  <script src="./data/react.js"></script>
-
-  <!-- js -->
-  <script data-href="https://github.com/HappyJayXin/useful-front-end-data" data-target="_blank" src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
-  <script src="js/index.js"></script>
-</body>
-
+    <!-- js -->
+    <script
+      data-href="https://github.com/HappyJayXin/useful-front-end-data"
+      data-target="_blank"
+      src="https://unpkg.com/github-corners/dist/embed.min.js"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
