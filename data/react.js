@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-spring',
+      href: 'https://www.npmjs.com/package/react-spring'
+    },
+    {
       name: 'JSX Control Statements',
       href: 'https://www.npmjs.com/package/babel-plugin-jsx-control-statements#choose-tag'
     },
