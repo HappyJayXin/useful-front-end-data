@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'og image tool',
+      href: 'https://www.opengraph.xyz/',
+    },
+    {
       name: 'skypack',
       href: 'https://www.skypack.dev/',
     },
