@@ -231,10 +231,6 @@ const react = {
       htef: 'https://github.com/enzymejs/enzyme'
     },
     {
-      name: 'react-hook-form',
-      href: 'https://react-hook-form.com/get-started'
-    },
-    {
       name: 'razzle',
       href: 'https://github.com/jaredpalmer/razzle'
     },
