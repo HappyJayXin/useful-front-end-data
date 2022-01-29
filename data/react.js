@@ -3,7 +3,7 @@ const react = {
   name: 'React',
   lists: [
     {
-      name: 'hooks',
+      name: 'ahooks',
       href: 'https://github.com/alibaba/hooks'
     },
     {
