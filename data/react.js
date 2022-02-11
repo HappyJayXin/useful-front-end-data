@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'dnd-kit drag',
+      href: 'https://github.com/clauderic/dnd-kit'
+    },
+    {
       name: 'ahooks',
       href: 'https://github.com/alibaba/hooks'
     },
