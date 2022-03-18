@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-signature-pad-wrapper',
+      href: 'https://github.com/michaeldzjap/react-signature-pad-wrapper'
+    },
+    {
       name: 'react-ux-form',
       href: 'https://www.npmjs.com/package/react-ux-form'
     },
