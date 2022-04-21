@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'usehooks',
+      href: 'https://usehooks.com/',
+    },
+    {
       name: 'react-signature-pad-wrapper',
       href: 'https://github.com/michaeldzjap/react-signature-pad-wrapper'
     },
