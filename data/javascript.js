@@ -3,6 +3,10 @@ const javascript = {
   name: 'JavaScript',
   lists: [
     {
+      name: 'validator',
+      href: 'https://www.npmjs.com/package/validator',
+    },
+    {
       name: 'tiny-invariant',
       href: 'https://www.npmjs.com/package/4',
     },
