@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react konva draw svg',
+      href: 'react-konva'
+    },
+    {
       name: 'usehooks',
       href: 'https://usehooks.com/',
     },
