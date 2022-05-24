@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'viselect react mouse selection',
+      href: 'https://github.com/Simonwep/selection/tree/master/packages/react',
+    },
+    {
       name: 'react konva draw svg',
       href: 'react-konva'
     },
