@@ -3,6 +3,10 @@ const typescript = {
   name: 'Typescript',
   lists: [
     {
+      name: 'zod',
+      href: 'https://zod.dev',
+    },
+    {
       name: 'TypeScript Error Translator',
       href: 'https://ts-error-translator.vercel.app',
     },
