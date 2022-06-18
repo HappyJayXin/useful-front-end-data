@@ -3,6 +3,10 @@ const typescript = {
   name: 'Typescript',
   lists: [
     {
+      name: 'ts-toolbelt',
+      href: 'https://www.npmjs.com/package/ts-toolbelt',
+    },
+    {
       name: 'zod',
       href: 'https://zod.dev',
     },
