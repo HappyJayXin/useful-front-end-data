@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-dropzone',
+      href: 'https://react-dropzone.js.org/',
+    },
+    {
       name: 'viselect react mouse selection',
       href: 'https://github.com/Simonwep/selection/tree/master/packages/react',
     },
