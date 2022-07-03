@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-use-measure',
+      href: 'https://www.npmjs.com/package/react-use-measure',
+    },
+    {
       name: 'react-dropzone',
       href: 'https://react-dropzone.js.org/',
     },
