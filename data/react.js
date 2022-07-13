@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'dnd-kit',
+      href: 'https://www.npmjs.com/package/@dnd-kit/core'
+    },
+    {
       name: 'react-use-measure',
       href: 'https://www.npmjs.com/package/react-use-measure',
     },
