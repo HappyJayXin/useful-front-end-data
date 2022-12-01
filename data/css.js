@@ -71,6 +71,10 @@ const css = {
     { name: '漸層色彩02', href: 'https://www.grabient.com/' },
     { name: '漸層色彩01', href: 'https://webgradients.com/' },
     {
+      name: 'Branition Colors',
+      href: 'https://branition.com/colors'
+    },
+    {
       name: 'modern-normalize.css',
       href: 'https://github.com/sindresorhus/modern-normalize'
     },
