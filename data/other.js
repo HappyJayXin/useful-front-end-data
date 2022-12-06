@@ -3,6 +3,10 @@ const other = {
   name: '框架/其它',
   lists: [
     {
+      name: 'Avatar generator',
+      href: 'https://boringavatars.com/',
+    },
+    {
       name: 'og image tool',
       href: 'https://www.opengraph.xyz/',
     },
