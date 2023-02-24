@@ -3,6 +3,10 @@ const react = {
   name: 'React',
   lists: [
     {
+      name: 'react-wrap-balancer',
+      href: 'https://www.npmjs.com/package/react-wrap-balancer'
+    },
+    {
       name: 'dnd-kit',
       href: 'https://www.npmjs.com/package/@dnd-kit/core'
     },
